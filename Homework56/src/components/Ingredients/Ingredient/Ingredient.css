@@ -1,0 +1,21 @@
+.btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.ingredientName {
+  font-size: 24px;
+  margin-left: 30px;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #EAEDED;
+  padding: 6px;
+}
