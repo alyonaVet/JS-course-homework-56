@@ -1,11 +1,11 @@
 import React from 'react';
 
 interface Props {
-  totalPrice: number;
+  addTotalPrice: () => number;
 }
-const Price: React.FC<Props> = ({totalPrice}) => {
+const Price: React.FC<Props> = ({addTotalPrice}) => {
   return (
-    <div>Price: {totalPrice}</div>
+    <div>Price: {addTotalPrice()}</div>
   );
 };
 
